@@ -4,7 +4,7 @@
   "description": "testing package creation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --color test/main.spec.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,9 @@
   },
   "author": "jaruji",
   "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  },
   "bugs": {
     "url": "https://github.com/jaruji/jaruji-package/issues"
   },
