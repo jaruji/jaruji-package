@@ -1,0 +1,19 @@
+{
+  "name": "jaruji-package",
+  "version": "1.0.0",
+  "description": "testing package creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaruji/jaruji-package.git"
+  },
+  "author": "jaruji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaruji/jaruji-package/issues"
+  },
+  "homepage": "https://github.com/jaruji/jaruji-package#readme"
+}
