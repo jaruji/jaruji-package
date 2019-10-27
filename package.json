@@ -14,11 +14,14 @@
   "author": "jaruji",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.2.1",
-    "random": "2.1.1"
+    "mocha": "^6.2.1"
   },
   "bugs": {
     "url": "https://github.com/jaruji/jaruji-package/issues"
   },
-  "homepage": "https://github.com/jaruji/jaruji-package#readme"
+  "homepage": "https://github.com/jaruji/jaruji-package#readme",
+  "dependencies": {
+    "random": "2.1.1",
+    "marek-package": "git+https://github.com/marekkocurik/marek-package.git#15a3aeb36a3ad7c4a57c6f6901748857c7604813"
+  }
 }
