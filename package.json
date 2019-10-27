@@ -1,11 +1,11 @@
 {
   "name": "jaruji-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "testing package creation",
   "main": "main.js",
   "scripts": {
     "test": "mocha --color test/main.spec.js",
-    "main": "mocha --color src/main.js"
+    "main": "mocha src/main.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/jaruji/jaruji-package#readme",
   "dependencies": {
-    "random": "2.1.1",
+    "random": "2.1.x",
     "marek-package": "git+https://github.com/marekkocurik/marek-package.git#15a3aeb36a3ad7c4a57c6f6901748857c7604813"
   }
 }
