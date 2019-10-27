@@ -2,9 +2,10 @@
   "name": "jaruji-package",
   "version": "1.0.0",
   "description": "testing package creation",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "mocha --color test/main.spec.js"
+    "test": "mocha --color test/main.spec.js",
+    "main": "mocha --color src/main.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,8 @@
   "author": "jaruji",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^6.2.1",
+    "random": "2.1.1"
   },
   "bugs": {
     "url": "https://github.com/jaruji/jaruji-package/issues"
