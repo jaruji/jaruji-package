@@ -14,7 +14,7 @@
   "author": "jaruji",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^10.2.0"
   },
   "bugs": {
     "url": "https://github.com/jaruji/jaruji-package/issues"
